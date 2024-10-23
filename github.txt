@@ -1,0 +1,53 @@
+1. pwd
+2. ls, patterns.txt and symmetry.py will be listed
+3. touch patterns.txt
+4. cat patterns.txt
+5. diff patterns.txt symmetry.txt
+6. mv ~/music/patterns.txt ~/math/calculus/patterns.txt
+7. rm ~/math/geometry/triangle.txt
+8. cd ../math
+9. run git init in ~/math
+10. create the remote repo in github, copy its url, and run git remote add origin <url>
+11. cp ~/music/symmetry.txt ~/math
+12. git status, no because symmetry.txt is not yet in the staging area
+13. git add symmetry.txt , git add .
+14. yes, git restore --staged symmetry.txt
+15. git commit -m "added symmetry.txt"
+16. git push origin main , main branch because we did this in the main branch
+17. git branch applied_math
+18. git checkout applied_math
+19. in applied_math branch, run the following: git add . -> git commit -m "added new branch" -> git push origin applied_math , if we move to main branch before committing, nothing happens because we did not do anything in the main branch ever since creating a new branch
+20. git branch , considering we are still on the applied_math branch, applied_math will be highlighted green
+21. git checkout main
+22. git merge applied_math
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
